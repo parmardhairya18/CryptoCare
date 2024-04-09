@@ -1,0 +1,38 @@
+#background {
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
+}
+
+/* #home-page-box {
+  background-color: rgba(255, 255, 255, 0.5);
+} */
+
+.register-doctor{
+   display: flex;
+   height: 100vh;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.register-patient-nav{
+  position: relative;
+  left: 30px;
+  font-size: 15px;
+  background-color:aqua;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.register-patient-nav:hover{
+  color: white;
+  background-color: #061d60;
+}
+
+.btn{
+  color: black;
+}
+.btn:hover {
+  background-color: #061d60;
+}
